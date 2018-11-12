@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/images"
+    tools:context=".Main2Activity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/new_sem"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/artifika"
+        android:text="Start New Semester / Year"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/start_new"
+        android:layout_width="181dp"
+        android:layout_height="181dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/artifika"
+        android:text="Start Today's Topics"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/progress_new"
+        app:layout_constraintEnd_toStartOf="@+id/start_old"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/report" />
+
+    <Button
+        android:id="@+id/start_old"
+        android:layout_width="181dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:text="Start Today's Revision"
+        android:fontFamily="@font/artifika"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/progress_old"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/start_new"
+        app:layout_constraintTop_toBottomOf="@+id/report" />
+
+    <Button
+        android:id="@+id/progress_new"
+        android:layout_width="181dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="2dp"
+        android:text="Syllabus Progress"
+        android:fontFamily="@font/artifika"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/upcoming_exams"
+        app:layout_constraintEnd_toStartOf="@+id/start_old"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_new" />
+
+    <Button
+        android:id="@+id/progress_old"
+        android:layout_width="181dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="2dp"
+        android:text="Revision Progress"
+        android:fontFamily="@font/artifika"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/upcoming_exams"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/progress_new"
+        app:layout_constraintTop_toBottomOf="@+id/start_old" />
+
+    <Button
+        android:id="@+id/upcoming_exams"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Upcoming Exams"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/artifika"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_new" />
+
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="365dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/coming_soon"
+        android:gravity="center|top"
+        android:text="Report"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/start_new"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_sem" />
+
+</android.support.constraint.ConstraintLayout>

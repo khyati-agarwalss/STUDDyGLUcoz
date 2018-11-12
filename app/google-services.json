@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "306933886384",
+    "firebase_url": "https://studdy-glucoz.firebaseio.com",
+    "project_id": "studdy-glucoz",
+    "storage_bucket": "studdy-glucoz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306933886384:android:340e75320912598a",
+        "android_client_info": {
+          "package_name": "com.example.android.studdyglucoz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306933886384-36tfsm3t36j6g9tfj2hnnmnqm8j1f0vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.studdyglucoz",
+            "certificate_hash": "c8adc710dfc3fd555b4b38ac0f6153439fe44cf5"
+          }
+        },
+        {
+          "client_id": "306933886384-aeqaj08jql2085g4aenepq843mqothu4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "306933886384-aeqaj08jql2085g4aenepq843mqothu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2dfYX4biOriw6KcHIegmn2evZqSCdLr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306933886384-aeqaj08jql2085g4aenepq843mqothu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

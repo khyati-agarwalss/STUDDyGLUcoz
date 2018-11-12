@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/aladin</item>
+        <item>@font/almendra_display</item>
+        <item>@font/artifika</item>
+        <item>@font/atomic_age</item>
+        <item>@font/coming_soon</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/creepster</item>
+        <item>@font/crushed</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/henny_penny</item>
+        <item>@font/miltonian_tattoo</item>
+    </array>
+</resources>
